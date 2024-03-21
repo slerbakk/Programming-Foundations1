@@ -1,12 +1,3 @@
-const television = {
-  brand: "Samsung",
-  on: true,
-  off: false,
-  channels: 3,
-  apps: ["Netflix", "Amazon Prime", "DisneyPlus", "Twitch"],
-  power: function toggle() {},
-};
-
 function toggle() {
   const power = document.querySelector(".on");
   const screen = document.querySelector(".screenOn");
