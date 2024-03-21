@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="television.js"></script>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="screenOn">
+        <div class="channels">Channel 1</div>
+        <div class="volume">Volume 1</div>
+      </div>
+      <div class="buttons">
+        <div class="toggle">
+          Power:
+          <p>
+            <button onclick="toggle()" class="on">On</button>
+          </p>
+        </div>
+        <div class="channels">
+          Channels:
+          <p>
+            <button onclick="previousChannel()" class="button">Previous</button>
+            <button onclick="nextChannel()" class="button">Next</button>
+          </p>
+        </div>
+        <div class="volume">
+          Volume:
+          <p>
+            <button onclick="volumeDown()" class="button">Lower</button>
+            <button onclick="volumeUp()" class="button">Higher</button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
